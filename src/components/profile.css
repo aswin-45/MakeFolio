@@ -1,0 +1,135 @@
+/* Dashboard.css */
+/* .personal-details-container */
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    background-color: #f0f0f0;
+  }
+  
+  .profile-card,
+  .skills-card,
+  .projects-card {
+    padding: 30px;
+    background-color: #fafafa;
+    margin: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-description {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 20px;
+  }
+  
+  .profile-social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-social-links a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .profile-social-links a:hover {
+    color: #007bff;
+  }
+  
+  .section-heading {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .project {
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+ /* PersonalDetails.css */
+
+.personal-details-container {
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal-details-section {
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.section-heading {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.personal-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+ 

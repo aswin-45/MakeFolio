@@ -1,0 +1,87 @@
+/* Basic reset and body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Main container style */
+  .geet {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each section of details */
+  .details-container div {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the buttons */
+  .buttons-container button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .buttons-container a button {
+    /* If you use buttons inside NavLink, remove the default link styles */
+    text-decoration: none;
+  }
+  
+  .buttons-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the export button */
+  .buttons-container button:last-child {
+    background-color: #2196f3;
+  }
+  
+  /* Add spacing between sections */
+  .details-container div:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the navigation links (MainNav) */
+  /* You can customize this further based on your NavBar implementation */
+  .MainNav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .MainNav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Add some spacing above and below the NavBar */
+  .MainNav {
+    margin-bottom: 20px;
+  }
+  
+  /* Media query to make the container responsive on smaller screens */
+  @media (max-width: 600px) {
+    .geet {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
